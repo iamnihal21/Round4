@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="zoo_style.css">
+    <title>Ahmedabad Zoo</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="LOGO.png" width="100px">
+        </div>
+
+        <div class="links">
+            <a class="nd" href="#">Home</a>
+            <a class="nd" href="#animal">Animals</a>
+            <a class="nd" href="#services">Services</a>
+            <a class="nd" href="#aboutus">About Us</a>
+            <a class="nd" href="#contactus">Contact Us</a>
+        </div>
+        <div class="btn">
+            <label for="check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+
+            <img src="slider2.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="slider3.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="slider4.jpg" style="width:100%">
+
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div id="box">
+        <p class="n4">Our Family</p>
+        <div class="n5">
+            <div id="n1">
+                <div>
+                    <img src="Lion.jpg" width="350px" height="300px">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, modi.
+                    </p>
+
+                </div>
+            </div>
+            <div id="n1">
+                <div>
+                    <img src="Tiger.jpg" width="350px" height="300px">
+                </div>
+                <div>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, modi.
+
+                </div>
+            </div>
+            <div id="n1">
+                <div>
+                    <img src="Elephant.avif" width="350px" height="300px">
+                </div>
+                <div>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, modi.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <h1 id="btnMain"><button id="btn">Animal listing</button></h1>
+    <div id="menu" class="menu-iteam">
+        <div class="menu-iteam-menu">
+            <a href="#tiger">
+                <div class="menu-iteam-menu-list">Wild Animals</div>
+            </a>
+            <a href="#dog">
+                <div class="menu-iteam-menu-list">Domestic Animal</div>
+            </a>
+            <a href="#underwater">
+                <div class="menu-iteam-menu-list">Under water</div>
+            </a>
+
+        </div>
+        <h1 id="tiger" class="menu-iteam-menu">Tiger</h1>
+        <div class="menu-item">
+            <h1><b>Siberian Tiger</b> <span class="menu-iteam-menu"> Caspian Tiager</span></h1>
+            <hr>
+            <h1><b>Sumatran Tiger</b> <span class="menu-iteam-menu">Javan Tiger</span></h1>
+            <hr>
+            <h1><b>Indochinese Tiger</b>
+                <span class="menu-iteam-menu">Malayan Tiger</span>
+            </h1>
+        </div>
+        <h1 id="dog" class="menu-iteam-menu">Dog</h1>
+        <div class="menu-iteam">
+            <h1><b>Bull dog</b> <span class="menu-iteam-menu">French bull dog</span>
+                <span class="menu-iteam-menu"></span>
+            </h1>
+            <hr>
+            <h1><b>Labra dog</b> <span class="menu-iteam-menu">Boxer</span></h1>
+            <hr>
+            <h1><b>Germa shephered</b> <span class="menu-iteam-menu">poodle</span></h1>
+        </div>
+        <h1 id="underwater" class="menu-iteam-menu">Under water</h1>
+        <div class="menu-iteam">
+            <h1><b>Angler</b> <span class="menu-iteam-menu">Dolphin</span>
+            </h1>
+            <hr>
+            <h1><b>Solanies viperfish</b> <span class="menu-iteam-menu">walruses</span></h1>
+            <hr>
+            <h1><b>Vampire Squid</b> <span class="menu-iteam-menu">sharks</span></h1>
+        </div>
+
+    </div>
+    </div>
+    <div id="testiomials">
+        <h2>Testimonials</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem amet repellat rem.</p>
+                    <p class="author">Guptaji</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div id="visitUs">
+        <h2>Visit Us</h2>
+        <div class="visit-main">
+            <div class="visit-text">
+                <p>RCTI, Infront of sola civil, near high court Ahmedabad, Gujarat
+                    <b> 380060
+                </p>
+            </div>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3630065638417!2d72.5283848144434!3d23.08380371983063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82db57cc8443%3A0x13a68fd1f0605c91!2sRanchhodlal%20Chhotalal%20Technical%20Institute!5e0!3m2!1sen!2sin!4v1650811371166!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="aboutus">
+        <h2>About Us</h2>
+        <div class="visit-main">
+            <div class="visit-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima soluta aperiam aspernatur neque
+                    officiis tenetur quis, similique quae numquam odit mollitia veritatis assumenda quaerat doloremque
+                    sed odio, fugiat repellendus, vel reiciendis dolores perspiciatis placeat? Esse adipisci ipsa earum
+                    at, error impedit accusamus reprehenderit culpa quaerat fugiat modi asperiores, veniam rem autem
+                    nam? Ipsum voluptas quo voluptatum quos doloribus aut, autem porro perferendis ipsam modi voluptatem
+                    reiciendis nostrum officia dolore nam beatae similique hic sapiente. Atque eveniet consequatur
+                    doloribus architecto fuga minima incidunt excepturi eaque vero, quidem iste similique nisi! Natus
+                    hic maxime, facere ullam in impedit cumque blanditiis eligendi reprehenderit.</p>
+            </div>
+            <footer class="footer-distributed">
+                <div class="footer-left">
+                    <div class="logo">
+                        <p class="footer-company-name"><img src="LOGO.png" width="100px" height="100px"></p>
+                    </div>
+                    <p class="footer-links">
+                        <a href="#">Home &nbsp </a>
+                        <a href="#">&nbsp Blog</a>
+                        <a href="#">&nbsp Pricing</a>
+                        <a href="#">&nbsp About</a>
+                        <a href="#">&nbsp Faq</a>
+                        <a href="#">&nbsp Contact</a>
+                    </p>
+                </div>
+            </footer>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
